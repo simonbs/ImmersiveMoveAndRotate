@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72317BEE2A80F2D30044B240 /* ImmersiveMoveAndRotateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72317BED2A80F2D30044B240 /* ImmersiveMoveAndRotateApp.swift */; };
+		72317BF22A80F2D30044B240 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72317BF12A80F2D30044B240 /* ImmersiveView.swift */; };
+		72317BF62A80F2D60044B240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72317BF52A80F2D60044B240 /* Assets.xcassets */; };
+		72317C002A80F3060044B240 /* arcade_machine.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 72317BFF2A80F3060044B240 /* arcade_machine.usdz */; };
+		72317C042A80F52C0044B240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72317C032A80F52C0044B240 /* ContentView.swift */; };
+		72895F0A2A817B170056368E /* InteractiveObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72895F092A817B170056368E /* InteractiveObject.swift */; };
+		72895F0C2A817B690056368E /* InteractiveObjectRealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72895F0B2A817B690056368E /* InteractiveObjectRealityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72317BE62A80F2D30044B240 /* ImmersiveMoveAndRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmersiveMoveAndRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72317BED2A80F2D30044B240 /* ImmersiveMoveAndRotateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveMoveAndRotateApp.swift; sourceTree = "<group>"; };
+		72317BF12A80F2D30044B240 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		72317BF52A80F2D60044B240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72317BFF2A80F3060044B240 /* arcade_machine.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = arcade_machine.usdz; sourceTree = "<group>"; };
+		72317C032A80F52C0044B240 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72895F092A817B170056368E /* InteractiveObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveObject.swift; sourceTree = "<group>"; };
+		72895F0B2A817B690056368E /* InteractiveObjectRealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveObjectRealityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72317BE32A80F2D30044B240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72317BDD2A80F2D30044B240 = {
+			isa = PBXGroup;
+			children = (
+				72317BE82A80F2D30044B240 /* ImmersiveMoveAndRotate */,
+				72317BE72A80F2D30044B240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72317BE72A80F2D30044B240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72317BE62A80F2D30044B240 /* ImmersiveMoveAndRotate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72317BE82A80F2D30044B240 /* ImmersiveMoveAndRotate */ = {
+			isa = PBXGroup;
+			children = (
+				72317BED2A80F2D30044B240 /* ImmersiveMoveAndRotateApp.swift */,
+				72317C032A80F52C0044B240 /* ContentView.swift */,
+				72317BF12A80F2D30044B240 /* ImmersiveView.swift */,
+				72895F092A817B170056368E /* InteractiveObject.swift */,
+				72895F0B2A817B690056368E /* InteractiveObjectRealityView.swift */,
+				72317BFF2A80F3060044B240 /* arcade_machine.usdz */,
+				72317BF52A80F2D60044B240 /* Assets.xcassets */,
+			);
+			path = ImmersiveMoveAndRotate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72317BE52A80F2D30044B240 /* ImmersiveMoveAndRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72317BFC2A80F2D60044B240 /* Build configuration list for PBXNativeTarget "ImmersiveMoveAndRotate" */;
+			buildPhases = (
+				72317BE22A80F2D30044B240 /* Sources */,
+				72317BE32A80F2D30044B240 /* Frameworks */,
+				72317BE42A80F2D30044B240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImmersiveMoveAndRotate;
+			packageProductDependencies = (
+			);
+			productName = ImmersiveMoveAndRotate;
+			productReference = 72317BE62A80F2D30044B240 /* ImmersiveMoveAndRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72317BDE2A80F2D30044B240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					72317BE52A80F2D30044B240 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 72317BE12A80F2D30044B240 /* Build configuration list for PBXProject "ImmersiveMoveAndRotate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72317BDD2A80F2D30044B240;
+			productRefGroup = 72317BE72A80F2D30044B240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72317BE52A80F2D30044B240 /* ImmersiveMoveAndRotate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72317BE42A80F2D30044B240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72317BF62A80F2D60044B240 /* Assets.xcassets in Resources */,
+				72317C002A80F3060044B240 /* arcade_machine.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72317BE22A80F2D30044B240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72317BEE2A80F2D30044B240 /* ImmersiveMoveAndRotateApp.swift in Sources */,
+				72317BF22A80F2D30044B240 /* ImmersiveView.swift in Sources */,
+				72895F0C2A817B690056368E /* InteractiveObjectRealityView.swift in Sources */,
+				72317C042A80F52C0044B240 /* ContentView.swift in Sources */,
+				72895F0A2A817B170056368E /* InteractiveObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72317BFA2A80F2D60044B240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		72317BFB2A80F2D60044B240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		72317BFD2A80F2D60044B240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.ImmersiveMoveAndRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		72317BFE2A80F2D60044B240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8NQFWJHC63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.simonbs.ImmersiveMoveAndRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72317BE12A80F2D30044B240 /* Build configuration list for PBXProject "ImmersiveMoveAndRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72317BFA2A80F2D60044B240 /* Debug */,
+				72317BFB2A80F2D60044B240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72317BFC2A80F2D60044B240 /* Build configuration list for PBXNativeTarget "ImmersiveMoveAndRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72317BFD2A80F2D60044B240 /* Debug */,
+				72317BFE2A80F2D60044B240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72317BDE2A80F2D30044B240 /* Project object */;
+}
