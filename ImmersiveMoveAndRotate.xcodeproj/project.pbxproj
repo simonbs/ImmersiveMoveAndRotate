@@ -11,9 +11,7 @@
 		72317BF22A80F2D30044B240 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72317BF12A80F2D30044B240 /* ImmersiveView.swift */; };
 		72317BF62A80F2D60044B240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72317BF52A80F2D60044B240 /* Assets.xcassets */; };
 		72317C002A80F3060044B240 /* arcade_machine.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 72317BFF2A80F3060044B240 /* arcade_machine.usdz */; };
-		72317C042A80F52C0044B240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72317C032A80F52C0044B240 /* ContentView.swift */; };
-		72895F0A2A817B170056368E /* InteractiveObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72895F092A817B170056368E /* InteractiveObject.swift */; };
-		72895F0C2A817B690056368E /* InteractiveObjectRealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72895F0B2A817B690056368E /* InteractiveObjectRealityView.swift */; };
+		727133A82B61138500B71B5E /* EntityMovementViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727133A72B61138500B71B5E /* EntityMovementViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +20,8 @@
 		72317BF12A80F2D30044B240 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		72317BF52A80F2D60044B240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72317BFF2A80F3060044B240 /* arcade_machine.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = arcade_machine.usdz; sourceTree = "<group>"; };
-		72317C032A80F52C0044B240 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		72895F092A817B170056368E /* InteractiveObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveObject.swift; sourceTree = "<group>"; };
-		72895F0B2A817B690056368E /* InteractiveObjectRealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveObjectRealityView.swift; sourceTree = "<group>"; };
+		727133A72B61138500B71B5E /* EntityMovementViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityMovementViewModifier.swift; sourceTree = "<group>"; };
+		727133A92B6114CC00B71B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				72317BED2A80F2D30044B240 /* ImmersiveMoveAndRotateApp.swift */,
-				72317C032A80F52C0044B240 /* ContentView.swift */,
 				72317BF12A80F2D30044B240 /* ImmersiveView.swift */,
-				72895F092A817B170056368E /* InteractiveObject.swift */,
-				72895F0B2A817B690056368E /* InteractiveObjectRealityView.swift */,
+				727133A72B61138500B71B5E /* EntityMovementViewModifier.swift */,
 				72317BFF2A80F3060044B240 /* arcade_machine.usdz */,
 				72317BF52A80F2D60044B240 /* Assets.xcassets */,
+				727133A92B6114CC00B71B5E /* Info.plist */,
 			);
 			path = ImmersiveMoveAndRotate;
 			sourceTree = "<group>";
@@ -142,9 +138,7 @@
 			files = (
 				72317BEE2A80F2D30044B240 /* ImmersiveMoveAndRotateApp.swift in Sources */,
 				72317BF22A80F2D30044B240 /* ImmersiveView.swift in Sources */,
-				72895F0C2A817B690056368E /* InteractiveObjectRealityView.swift in Sources */,
-				72317C042A80F52C0044B240 /* ContentView.swift in Sources */,
-				72895F0A2A817B170056368E /* InteractiveObject.swift in Sources */,
+				727133A82B61138500B71B5E /* EntityMovementViewModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +274,7 @@
 				DEVELOPMENT_TEAM = 8NQFWJHC63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ImmersiveMoveAndRotate/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +300,7 @@
 				DEVELOPMENT_TEAM = 8NQFWJHC63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/ImmersiveMoveAndRotate/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
